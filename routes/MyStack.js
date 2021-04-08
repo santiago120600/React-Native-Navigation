@@ -7,7 +7,18 @@ const Stack = createStackNavigator();
 
 const MyStack = () =>{
     return (
-         <Stack.Navigator>
+         <Stack.Navigator
+            screenOptions={{
+                headerStyle:{
+                    backgroundColor:'#841584'
+                },
+                headerTintColor: 'white',
+                headerTitleStyle:{
+                    fontWeight:'bold'
+                },
+                headerTitleAlign:'center'
+            }}
+          >
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Task" component={Task} />
         </Stack.Navigator>       
