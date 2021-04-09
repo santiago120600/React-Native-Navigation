@@ -1,4 +1,4 @@
-# React Native ToDo App
+# React Native to learn React Native Navigation 
 Using [Expo](https://docs.expo.io/), [React Navigation](https://reactnavigation.org/)
 
 ## Installation and Run
