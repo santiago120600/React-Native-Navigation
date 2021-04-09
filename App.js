@@ -1,11 +1,11 @@
 import React from 'react';
-import MyStack from './routes/MyStack';
+import MyDrawer from './routes/MyDrawer';
 import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
       <NavigationContainer>
-        <MyStack/>
+        <MyDrawer/>
       </NavigationContainer>
   );
 }
